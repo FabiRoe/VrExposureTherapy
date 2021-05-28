@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 71612823}
   - component: {fileID: 71612822}
   m_Layer: 0
-  m_Name: Teleport (1)
+  m_Name: Teleport_Step1
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 842654112}
+  myObject: {fileID: 1289362373}
   totalTime: 3
   distanceOfRay: 10
 --- !u!114 &481778038
@@ -1555,7 +1556,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0.63
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1900,8 +1901,9 @@ GameObject:
   - component: {fileID: 1289362375}
   - component: {fileID: 1289362379}
   - component: {fileID: 1289362374}
+  - component: {fileID: 1289362380}
   m_Layer: 0
-  m_Name: Teleport
+  m_Name: Teleport_Step2
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2037,6 +2039,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 481778035}
+--- !u!114 &1289362380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289362373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83744c495b417394ea31a32289d678d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1359870428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,7 +2238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617602350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.53, y: 7.16, z: -0.09}
+  m_LocalPosition: {x: -7.455, y: 7.651, z: 0.231}
   m_LocalScale: {x: 0.19773571, y: 0.008129311, z: 0.19773571}
   m_Children: []
   m_Father: {fileID: 0}

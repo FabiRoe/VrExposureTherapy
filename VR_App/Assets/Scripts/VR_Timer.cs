@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 
 public class VR_Timer : MonoBehaviour
 {
 
     public Image imgGaze;
+    public GameObject myObject;
     public float totalTime = 2;
     bool gvrStatus;
     float gvrTimer;
@@ -33,6 +35,7 @@ public class VR_Timer : MonoBehaviour
             if(imgGaze.fillAmount == 1 && _hit.transform.CompareTag("Teleport"))
             {
                 _hit.transform.gameObject.GetComponent<Teleport>().TeleportPlayer();
+                myObject.SetActive(true);
             }
         }
     }
@@ -48,4 +51,6 @@ public class VR_Timer : MonoBehaviour
         gvrTimer = 0;
         imgGaze.fillAmount = 0;
     }
+
+
 }
