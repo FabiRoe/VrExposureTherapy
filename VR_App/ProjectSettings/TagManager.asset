@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Teleport
   - LoadMenu
+  - ObjectForMenu
   layers:
   - Default
   - TransparentFX
