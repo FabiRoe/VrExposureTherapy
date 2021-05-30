@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class VR_LoadScene : MonoBehaviour
+public class VR_LoadMenu : MonoBehaviour
 {
 
     public Image imgGaze;
