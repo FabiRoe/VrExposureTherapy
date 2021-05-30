@@ -838,7 +838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 842654112}
   totalTime: 3
-  levelToLoad: Menu
+  levelToLoad: Haupt_Menu
   distanceOfRay: 200
 --- !u!114 &481778039
 MonoBehaviour:
@@ -1652,7 +1652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005605545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.74, y: 7.459, z: -1}
+  m_LocalPosition: {x: -7.166, y: 7.781, z: -1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1917,7 +1917,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289362373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.614, y: 8.581, z: 0.006}
+  m_LocalPosition: {x: -5.546, y: 8.581, z: 0.006}
   m_LocalScale: {x: 0.32772154, y: 0.013473287, z: 0.32772154}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2137,7 +2137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617602350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7779994, y: 7.5600004, z: 0.71500015}
+  m_LocalPosition: {x: -7.2039995, y: 7.8820004, z: 0.71500015}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
